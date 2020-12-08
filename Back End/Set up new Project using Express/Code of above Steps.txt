@@ -1,0 +1,24 @@
+Steps for abobe given Steps:
+(Assuming That you are in desired Folder in which you want to set up Project)
+
+
+  Type Following on you Hyper Terminal
+
+1) mkdir Calculator
+2) cd Calculator
+3) touch calculator.js (This creates .js file)
+4) npm init --yes
+5) npm install express
+
+6) Now Open the Calculator Folder in Atom
+
+  Type the Following in Atom's file calculator.js
+
+7) const express= require("express");
+8) const app= express()             (Setting Up Express)
+9) app.get('/',function(req,res){
+		res.send("Hello World"); 
+	    });
+10) app.listen(3000,function(){
+		console.log("Server Running on port 3000");
+	      });
