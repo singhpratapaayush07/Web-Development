@@ -1,6 +1,8 @@
 ///Below are 15 steps for fetching API data from other server to our server and
 //show reflect the data in our web application
 
+//For running this Web Application: After below 15 steps are done write commands given at the last of this file (Step 16 &17)
+
 // Pre-requistes:
 // After getting in this directory(folder), In teminal some modules should be installed already by entering following commands:
 // i) npm init --yes
@@ -74,6 +76,9 @@ app.post("/",function(req,res){
 app.listen(3000,function(){
   console.log("Server running on port 3000");
 
-
-
 });
+
+//16. Run by entering this Command on terminal:
+//    nodemon index.js
+
+//17. On chrome's URl type: localhost:3000
