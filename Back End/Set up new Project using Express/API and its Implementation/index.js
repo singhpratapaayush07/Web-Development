@@ -1,5 +1,5 @@
 ///Below are 15 steps for fetching API data from other server to our server and
-//show reflect the data in our web application
+//reflect the data in our web application
 
 //For running this Web Application: After below 15 steps are done write commands given at the last of this file (Step 16 &17)
 
