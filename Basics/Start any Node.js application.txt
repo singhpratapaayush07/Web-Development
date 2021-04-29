@@ -1,0 +1,16 @@
+Start any Node.js project
+
+1) Go to desired file directory where you make your projects. Below is mine.
+  => cd /f/Desktop/Folder_Name
+
+2) Create project folder.
+  => mkdir FruitsProject
+
+3) create new js file, which acts as first page of your application
+  => touch app.js
+
+3) initialize npm for node modules
+  => npm init --yes
+
+4) Install the required installs
+ => npm install mongoose
