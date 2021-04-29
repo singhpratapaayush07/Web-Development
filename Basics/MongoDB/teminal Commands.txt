@@ -1,0 +1,9 @@
+Terminal Commands
+
+cd to required project location
+npm init --yes
+npm install mongoose
+
+// open new hyper tab and in default home directory, run:
+mongod ->this will start mongodb server.
+
