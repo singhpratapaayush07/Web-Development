@@ -43,7 +43,7 @@ personModel.insertMany([john,randy,sam],function(err){
 });
 
 //2. Read Operation
-personModel.find(function(err, data){
+personModel.find({},function(err, data){
   if(err){
     console.log(err);
   }
