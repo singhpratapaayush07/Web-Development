@@ -59,14 +59,14 @@ personModel.find({},function(err, data){
 });
 
 //3. Updated Operation
-// personModel.updateOne({_id:"608a959060682b2cc06d81da"},{name:"Mandy"},function(err){
-//   if(err){
-//     console.log(err);
-//   }
-//   else{
-//     console.log("Successfully Updated");
-//   }
-// });
+personModel.updateOne({_id:"608a959060682b2cc06d81da"},{name:"Mandy"},function(err){
+  if(err){
+    console.log(err);
+  }
+  else{
+    console.log("Successfully Updated");
+  }
+});
 
 // 4. Delete operation
 personModel.deleteOne({name:"Mandy"},function(err){
