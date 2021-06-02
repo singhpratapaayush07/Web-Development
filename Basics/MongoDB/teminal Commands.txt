@@ -7,3 +7,15 @@ npm install mongoose
 // open new hyper tab and in default home directory, run:
 mongod ->this will start mongodb server.
 
+//open yet another tab to use mongodb interface:
+mongo -> opens mongo shell'
+
+//Some MongoDb commands:
+* show dbs -> show all databases
+
+* use "dbname" -> cd to desired Database
+
+* show collections -> show all tables(collections) in current database
+
+* db.collectionName.find() -> shows all values of table(collections)
+
