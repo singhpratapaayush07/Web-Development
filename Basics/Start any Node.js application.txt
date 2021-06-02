@@ -1,7 +1,7 @@
 Start any Node.js project
 
 1) Go to desired file directory where you make your projects. Below is mine.
-  => cd /f/Desktop/Folder_Name
+  => cd /g/SebDevelopment/Folder_Name
 
 2) Create project folder.
   => mkdir FruitsProject
@@ -13,4 +13,5 @@ Start any Node.js project
   => npm init --yes
 
 4) Install the required installs
+=> nom install express
  => npm install mongoose
