@@ -19,3 +19,5 @@ mongo -> opens mongo shell'
 
 * db.collectionName.find() -> shows all values of table(collections)
 
+* db.dropDatabase() -> delete this database
+
