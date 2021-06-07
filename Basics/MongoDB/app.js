@@ -32,6 +32,9 @@ const sam = new personModel({
   age: 23
 });
 
+//Insert only one entry in table
+sam.save();
+
 //Inserting all the entries of table in model
 personModel.insertMany([john,randy,sam],function(err){
   if(err) {
@@ -41,6 +44,8 @@ personModel.insertMany([john,randy,sam],function(err){
     console.log("Persons added Successfully");
   }
 });
+
+
 
 //2. Read Operation
 personModel.find({},function(err, data){
